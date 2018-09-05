@@ -1,0 +1,1 @@
+give @s paper{ display:{ Name:"{\"text\":\"Empty Rare Teleportation Scroll\",\"color\":\"red\",\"italic\":\"false\"}",Lore:["§7- 10,000 block limit", "§7- Rose Red"]}, boomber:{is_item:1b, id:"empty_rare_teleportation_scroll", from:"boomber-teleporation-scroll", group:["empty_teleportation_scroll"], teleporation_scroll:{ is_set:0b, type:"rare"}}} 1

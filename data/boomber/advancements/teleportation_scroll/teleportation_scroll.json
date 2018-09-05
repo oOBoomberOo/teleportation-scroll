@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Boomber's Teleportation Scroll v0.1",
+		"description": "",
+		"icon": {
+			"item": "minecraft:paper"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

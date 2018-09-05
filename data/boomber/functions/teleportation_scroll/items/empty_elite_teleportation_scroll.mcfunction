@@ -1,0 +1,1 @@
+give @s paper{ display:{ Name:"{\"text\":\"Empty Elite Teleportation Scroll\",\"color\":\"green\",\"italic\":\"false\"}",Lore:["§7- 400,000 block limit" ,"§7- Lime Dye"]}, boomber:{is_item:1b, id:"empty_elite_teleportation_scroll", from:"boomber-teleporation-scroll", group:["empty_teleportation_scroll"], teleporation_scroll:{ is_set:0b, type:"elite"}}} 1
