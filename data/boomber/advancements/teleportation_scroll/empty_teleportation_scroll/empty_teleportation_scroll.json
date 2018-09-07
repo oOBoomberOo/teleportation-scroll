@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": "Like ender pearl but better",
+		"description": {"text":"Create teleportation scroll\n\n§cNote: To craft a teleportation scroll Boomber's Enchanting v0.2+ is required"},
+		"icon": {
+			"item": "minecraft:paper"
+		}
+	},
+	"criteria": {
+		"teleportation_scroll": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:paper",
+						"nbt": "{boomber:{group:[\"empty_teleportation_scroll\"]}}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "boomber:teleportation_scroll/teleportation_scroll"
+}

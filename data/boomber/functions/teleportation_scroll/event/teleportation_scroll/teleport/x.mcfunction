@@ -32,4 +32,4 @@ execute as @s if score @s bb.resX matches -999999..-100000 positioned ~-100000 ~
 execute as @s if score @s bb.resX matches ..-1000000 run scoreboard players remove @s bb.posX 1000000
 execute as @s if score @s bb.resX matches ..-1000000 positioned ~-1000000 ~ ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/x
 
-execute as @s[scores={bb.success=0}] if score @s bb.resX matches 0 positioned ~ ~ ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/y
+execute as @s[scores={bb.successCount=0}] if score @s bb.resX matches 0 positioned ~ ~ ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/y

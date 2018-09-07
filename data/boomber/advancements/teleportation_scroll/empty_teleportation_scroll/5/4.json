@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"translate":"item.minecraft.lapis_lazuli"},
+		"description": "", "icon": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/5/3"
+}

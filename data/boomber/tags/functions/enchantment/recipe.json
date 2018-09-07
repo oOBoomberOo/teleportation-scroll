@@ -1,5 +1,10 @@
 {
 	"values": [
-	
+		"boomber:teleportation_scroll/recipe/empty_common_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/empty_uncommon_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/empty_rare_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/empty_elite_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/empty_legendary_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/empty_mythic_teleportation_scroll"
 	]
 }

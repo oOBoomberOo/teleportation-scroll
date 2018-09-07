@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": {"text":"Common Teleportation Scroll","color":"white"},
+		"description": "",
+		"icon": {
+			"item": "minecraft:bone_meal"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/empty_teleportation_scroll"
+}

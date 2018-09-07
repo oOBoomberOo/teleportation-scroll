@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"text":"Uncommon Teleportation Scroll","color":"yellow"},
+		"description": "", "icon": {
+			"item": "minecraft:dandelion_yellow"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/empty_teleportation_scroll"
+}

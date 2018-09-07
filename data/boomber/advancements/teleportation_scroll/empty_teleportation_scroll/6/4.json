@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"translate":"item.minecraft.blaze_powder"},
+		"description": "", "icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/6/3"
+}

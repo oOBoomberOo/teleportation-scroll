@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"text":"Mythic Teleportation Scroll","color":"dark_purple"},
+		"description": "", "icon": {
+			"item": "minecraft:magenta_dye"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/empty_teleportation_scroll"
+}

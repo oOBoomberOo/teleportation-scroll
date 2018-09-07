@@ -16,4 +16,4 @@ execute as @s if score @s bb.resY matches -99..-10 positioned ~ ~-10 ~ run funct
 execute as @s if score @s bb.resY matches -255..-100 run scoreboard players remove @s bb.posY 100
 execute as @s if score @s bb.resY matches -255..-100 positioned ~ ~-100 ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/y
 
-execute as @s[scores={bb.success=0}] if score @s bb.resY matches 0 positioned ~ ~ ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/z
+execute as @s[scores={bb.successCount=0}] if score @s bb.resY matches 0 positioned ~ ~ ~ run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/z

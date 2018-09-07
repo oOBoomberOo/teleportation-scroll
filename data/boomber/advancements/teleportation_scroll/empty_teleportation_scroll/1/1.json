@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": {"translate":"item.minecraft.writable_book"},
+		"description": "",
+		"icon": {
+			"item": "minecraft:writable_book"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"frame": "goal"
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/1/root"
+}

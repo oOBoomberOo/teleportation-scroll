@@ -32,4 +32,4 @@ execute as @s if score @s bb.resZ matches -999999..-100000 positioned ~ ~ ~-1000
 execute as @s if score @s bb.resZ matches ..-1000000 run scoreboard players remove @s bb.posZ 1000000
 execute as @s if score @s bb.resZ matches ..-1000000 positioned ~ ~ ~-1000000 run function boomber:teleportation_scroll/event/teleportation_scroll/teleport/z
 
-execute as @s[scores={bb.success=0}] if score @s bb.resZ matches 0 positioned ~ ~ ~ store success score @s bb.success run tp @s ~ ~ ~
+execute as @s[scores={bb.successCount=0}] if score @s bb.resZ matches 0 positioned ~ ~ ~ store success score @s bb.successCount run tp @s ~ ~ ~

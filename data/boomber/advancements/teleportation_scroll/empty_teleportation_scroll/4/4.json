@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"translate":"block.minecraft.sea_pickle"},
+		"description": "", "icon": {
+			"item": "minecraft:sea_pickle"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/4/3"
+}

@@ -22,3 +22,11 @@ execute as @s store result score @s bb.distanceL run scoreboard players operatio
 execute as @s store result score @s bb.distanceM run scoreboard players operation @s bb.distanceM > @s bb.distanceX
 execute as @s store result score @s bb.distanceM run scoreboard players operation @s bb.distanceM > @s bb.distanceY
 execute as @s store result score @s bb.distanceM run scoreboard players operation @s bb.distanceM > @s bb.distanceZ
+
+execute as @s if score @s bb.distanceL matches ..-1 run scoreboard players operation @s bb.distanceL *= #-1 bb.variable
+execute as @s if score @s bb.distanceM matches ..-1 run scoreboard players operation @s bb.distanceM *= #-1 bb.variable
+
+execute as @s run tag @s add boomber.teleportation_scroll.can_teleport
+execute as @s if entity @s[nbt={Item:{tag:{boomber:{teleportation_scroll:{interdimensional:0b}}}}}] unless score @s bb.desD = @s bb.locD run tag @s remove boomber.teleportation_scroll.can_teleport
+execute as @s unless score @s bb.distanceL <= @s bb.limit run tag @s remove boomber.teleportation_scroll.can_teleport
+execute as @s unless score @s bb.distanceM <= @s bb.limit run tag @s remove boomber.teleportation_scroll.can_teleport

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": {"text":"Legendary Teleportation Scroll","color":"aqua"},
+		"description": "", "icon": {
+			"item": "minecraft:cyan_dye"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"frame": "goal"
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/6/root"
+}

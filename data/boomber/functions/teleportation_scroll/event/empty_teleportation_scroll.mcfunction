@@ -5,8 +5,9 @@ execute as @s store success score @s bb.success if entity @s[nbt={Inventory:[{Sl
 execute as @s store success score @s bb.success if entity @s[nbt={Inventory:[{Slot:-106b, Count:1b, tag:{boomber:{id:"empty_elite_teleportation_scroll"}}}], SelectedItem:{id:"minecraft:lime_dye"}}] run function boomber:teleportation_scroll/event/empty_teleportation_scroll/elite
 execute as @s store success score @s bb.success if entity @s[nbt={Inventory:[{Slot:-106b, Count:1b, tag:{boomber:{id:"empty_legendary_teleportation_scroll"}}}], SelectedItem:{id:"minecraft:cyan_dye"}}] run function boomber:teleportation_scroll/event/empty_teleportation_scroll/legendary
 execute as @s store success score @s bb.success if entity @s[nbt={Inventory:[{Slot:-106b, Count:1b, tag:{boomber:{id:"empty_mythic_teleportation_scroll"}}}], SelectedItem:{id:"minecraft:magenta_dye"}}] run function boomber:teleportation_scroll/event/empty_teleportation_scroll/mythic
+execute as @s store success score @s bb.success if entity @s[nbt={Inventory:[{Slot:-106b, Count:1b, tag:{boomber:{id:"empty_custom_teleportation_scroll"}}}], SelectedItem:{id:"minecraft:redstone"}}] run function boomber:teleportation_scroll/event/empty_teleportation_scroll/custom
 
 execute as @s if score @s bb.success matches 0 run scoreboard players set @s bb.teleTimer 0
 execute as @s[scores={bb.success=1}] at @s anchored eyes run particle happy_villager ^ ^ ^0.5 0.3 0.3 0.3 0.1 1 normal @a
 
-execute as @s run scoreboard players set @s bb.success 0
+scoreboard players set @s bb.success 0

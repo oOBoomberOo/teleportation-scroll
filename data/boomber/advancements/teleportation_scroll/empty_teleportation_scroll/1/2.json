@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": {"translate":"block.minecraft.cobblestone"},
+		"description": "", 
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/1/1"
+}

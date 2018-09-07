@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"translate":"item.minecraft.iron_ingot"},
+		"description": "", "icon": {
+			"item": "minecraft:iron_ingot"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/6/2"
+}

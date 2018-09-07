@@ -34,22 +34,13 @@ scoreboard objectives add bb.resY dummy
 scoreboard objectives add bb.resZ dummy
 
 scoreboard objectives add bb.success dummy
+scoreboard objectives add bb.successCount dummy
 scoreboard objectives add bb.teleTimer dummy
+scoreboard objectives add bb.dimension dummy
+scoreboard objectives add bb.range dummy
+scoreboard objectives add bb.castingTime dummy
+scoreboard objectives add bb.limit dummy
+scoreboard objectives add bb.slot dummy
 scoreboard objectives add bb.variable dummy
 
-function boomber:teleportation_scroll/config
-
-scoreboard players set #1 bb.variable 1
 scoreboard players set #-1 bb.variable -1
-
-scoreboard players operation #common-teleportation_scroll-least bb.variable = #common-teleportation_scroll-most bb.variable
-scoreboard players operation #uncommon-teleportation_scroll-least bb.variable = #uncommon-teleportation_scroll-most bb.variable
-scoreboard players operation #rare-teleportation_scroll-least bb.variable = #rare-teleportation_scroll-most bb.variable
-scoreboard players operation #elite-teleportation_scroll-least bb.variable = #elite-teleportation_scroll-most bb.variable
-scoreboard players operation #legendary-teleportation_scroll-least bb.variable = #legendary-teleportation_scroll-most bb.variable
-
-scoreboard players operation #common-teleportation_scroll-least bb.variable *= #-1 bb.variable
-scoreboard players operation #uncommon-teleportation_scroll-least bb.variable *= #-1 bb.variable
-scoreboard players operation #rare-teleportation_scroll-least bb.variable *= #-1 bb.variable
-scoreboard players operation #elite-teleportation_scroll-least bb.variable *= #-1 bb.variable
-scoreboard players operation #legendary-teleportation_scroll-least bb.variable *= #-1 bb.variable

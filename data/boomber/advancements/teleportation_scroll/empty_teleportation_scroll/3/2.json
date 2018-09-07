@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": {"translate":"item.minecraft.redstone"},
+		"description": "", "icon": {
+			"item": "minecraft:redstone"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "boomber:teleportation_scroll/empty_teleportation_scroll/3/1"
+}
