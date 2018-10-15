@@ -9,3 +9,4 @@ execute as @e[tag=boomber.teleportation_scroll.activate] at @s run function boom
 
 execute as @a[scores={bb.dPos=0}] unless entity @s[nbt={Inventory:[{Slot:-106b, Count:1b, tag:{boomber:{group:["empty_teleportation_scroll"]}}}]}] at @s run scoreboard players set @s bb.teleTimer 0
 execute as @a unless score @s bb.dPos matches 0 run scoreboard players set @s bb.teleTimer 0
+execute as @e[tag=boomber.teleportation_scroll.teleportable] run tag @s remove boomber.teleportation_scroll.teleportable

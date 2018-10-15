@@ -201,8 +201,6 @@ execute as @s[scores={bb.successCount=0}] store result score @s bb.castingTime r
 execute as @s[scores={bb.successCount=0}] store result score @s bb.slot run data get entity @s Inventory[1].Slot
 execute as @s[scores={bb.successCount=0}] store success score @s bb.successCount if score @s bb.slot matches -106
 
-execute as @s[scores={bb.successCount=1}] run tellraw @a [{"text":"Range: "},{"score":{"name":"@s","objective":"bb.range"}}, {"text":" Interdimensional: "},{"score":{"name":"@s","objective":"bb.dimension"}}, {"text":" Casting Time: "},{"score":{"name":"@s","objective":"bb.castingTime"}}, {"text":" Slot: "},{"score":{"name":"@s","objective":"bb.slot"}}]
-
 execute as @s[scores={bb.successCount=0}] run scoreboard players set @s bb.range 0
 execute as @s[scores={bb.successCount=0}] run scoreboard players set @s bb.dimension 0
 execute as @s[scores={bb.successCount=0}] run scoreboard players set @s bb.castingTime 0

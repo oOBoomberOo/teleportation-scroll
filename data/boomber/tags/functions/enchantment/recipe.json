@@ -5,6 +5,12 @@
 		"boomber:teleportation_scroll/recipe/empty_rare_teleportation_scroll",
 		"boomber:teleportation_scroll/recipe/empty_elite_teleportation_scroll",
 		"boomber:teleportation_scroll/recipe/empty_legendary_teleportation_scroll",
-		"boomber:teleportation_scroll/recipe/empty_mythic_teleportation_scroll"
+		"boomber:teleportation_scroll/recipe/empty_mythic_teleportation_scroll",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/common",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/uncommon",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/rare",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/elite",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/legendary",
+		"boomber:teleportation_scroll/recipe/duplicating_teleportation_scroll/mythic"
 	]
 }
